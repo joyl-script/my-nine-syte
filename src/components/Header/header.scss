@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--rectangle-1);
+  padding: 25px 0;
+
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+
+  &-basket {
+    width: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.07);
+    }
+  }
+
+}

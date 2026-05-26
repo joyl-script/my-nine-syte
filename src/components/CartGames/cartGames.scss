@@ -1,0 +1,119 @@
+.cart {
+  position: relative;
+  z-index: 2;
+
+  &__container {
+    margin-top: 40px;
+    position: relative;
+  }
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    margin-top: 40px;
+  }
+
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--branco-rock);
+  }
+
+  &-block {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__img {
+    width: 260px;
+    height: 315px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 3px solid var(--rectangle-1);
+    flex-shrink: 0;
+    display: block;
+  }
+
+  &__name {
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 260px;
+  }
+}
+
+.game-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+}
+
+.game-image-wrapper {
+  position: relative;
+  width: 260px;
+  height: 315px;
+
+  &:hover .cart__basket-btn {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.cart__basket-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+
+  &:hover {
+    background: #ff4444;
+    transform: scale(1.1);
+  }
+}
+
+.cart__basket {
+  color: white;
+  width: 22px;
+  height: 22px;
+  pointer-events: none; // Чтобы клик проходил на кнопку
+}
+
+.arrow {
+  background-color: var(--g3);
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 100;
+
+  &-prev,
+  &-next {
+    z-index: 9999;
+  }
+}
+
+.cart__img {
+  z-index: 0 !important;
+}

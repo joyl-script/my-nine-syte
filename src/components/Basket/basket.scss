@@ -1,0 +1,23 @@
+.basket {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  height: 50%;
+  width: 20%;
+  background-color: var(--rectangle-1);
+  border-radius: 10px;
+
+
+  &__container {
+    padding: 30px;
+
+  }
+
+  &__cross {
+    color: var(--branco-rock);
+    cursor: pointer;
+    width: 20px;
+  }
+
+}

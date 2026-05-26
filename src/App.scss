@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('HelveticaNowDisplay-Medium.eot');
+  src: local('Helvetica Now Display Medium'), local('HelveticaNowDisplay-Medium'),
+    url('HelveticaNowDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+    url('HelveticaNowDisplay-Medium.woff2') format('woff2'),
+    url('HelveticaNowDisplay-Medium.woff') format('woff'),
+    url('HelveticaNowDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('HelveticaNowDisplay-ExtraBold.eot');
+  src: local('Helvetica Now Display ExtBd'), local('HelveticaNowDisplay-ExtraBold'),
+    url('HelveticaNowDisplay-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
+    url('HelveticaNowDisplay-ExtraBold.woff') format('woff'),
+    url('HelveticaNowDisplay-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('HelveticaNowDisplay-Light.eot');
+  src: local('Helvetica Now Display Light'), local('HelveticaNowDisplay-Light'),
+    url('HelveticaNowDisplay-Light.eot?#iefix') format('embedded-opentype'),
+    url('HelveticaNowDisplay-Light.woff2') format('woff2'),
+    url('HelveticaNowDisplay-Light.woff') format('woff'),
+    url('HelveticaNowDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+:root {
+  --font-family: "Helvetica Now Display", sans-serif;
+}
+
+:root {
+  --amarelo-rock: #fcaf17;
+  --rectangle-1: #020202;
+  --g1: #b1b1b1;
+  --g2: #797979;
+  --g3: #606060;
+  --branco-rock: #f6f6f6;
+}

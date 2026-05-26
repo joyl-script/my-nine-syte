@@ -1,0 +1,53 @@
+.footer {
+  background-color: var(--rectangle-1);
+  margin-top: 90px;
+
+  &__container {
+    padding: 91px 0;
+  }
+
+  &-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-concat {
+
+
+    &__desc {
+      font-family: var(--font-family);
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 150%;
+      letter-spacing: -0.01em;
+      color: var(--g1);
+      margin-top: 8px;
+    }
+
+
+  }
+
+  &-hed {
+    display: flex;
+    gap: 24px;
+
+    &__title {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: -0.01em;
+      color: var(--g1);
+      text-transform: uppercase;
+    }
+
+
+  }
+
+  &-coz {
+    display: flex;
+    gap: 32px;
+  }
+
+
+}
